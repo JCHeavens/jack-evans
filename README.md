@@ -1,2 +1,2 @@
-# jack-evans
+# Jack Evans
 Graphic + Interactive Design
