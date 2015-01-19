@@ -64,7 +64,6 @@ a.btn:hover {background:rgba(48,48,255,1);color:rgba(1,1,164,1);}
 .footer {margin:4em auto 0 auto;max-width:45em;padding:0 1.25em;}
 .links {border-top:1px solid rgba(255,255,255,1);list-style-type:none;display:block;margin:0;padding:0;text-align:center;}
 .links a {font-size:0.875em;text-decoration:none;}
-.links a:hover {color:rgba(1,1,164,1);}
 .links li {padding:1.25em 0 0; display:block;margin:0;}
 .links li:last-child {padding-bottom:1.25em;}
 .email, .twitter, .resume {float:none;}
@@ -73,6 +72,7 @@ a.btn:hover {background:rgba(48,48,255,1);color:rgba(1,1,164,1);}
 /*home*/ 
 .home {background:rgba(48,48,255,1);}
 .home h1, .home h2, .home h3, .home h4, .home p, .home .meta, .home a:link, .home a:visited {color:rgba(255,255,255,1);}
+.home a:hover {color:rgba(1,1,164,1);}
 .about h3 {font-weight:400;margin-top:1em;margin-bottom:0;}
 .projects, .skills, .note {margin-top:4em;}
 .projects h2, .skills h2 {margin-top:0em;margin-bottom:1em;font-family:'pt serif';}
