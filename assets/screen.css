@@ -16,20 +16,20 @@ blockquote {font-size: 1.25em;line-height:1.25;}
 *, *:before, *:after {-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-font-smoothing:antialiased;}
 html, body, header, footer, main, nav, section, article, aside, div {margin:0;padding:0;position:relative;width:100%;height:100%;font-family:'inconsolata',sans-serif;font-weight:400;}
 header, footer, main, nav, section, article, aside, div {height:auto;}
-h1, h2, h3, h4 {color:rgba(17,17,17,1);font-weight:700;margin-top:0.5em; margin-bottom:0.5em;}
-p {color:rgba(51,51,51,1);margin-bottom:1em;margin-top:0;}
-blockquote {padding:1.25em;border-left:5px solid rgba(221,221,221,1);margin:0;}
+h1, h2, h3, h4 {color:rgba(255,255,255,1);font-weight:700;margin-top:0.5em; margin-bottom:0.5em;}
+p {color:rgba(255,255,255,1);margin-bottom:1em;margin-top:0;}
+blockquote {padding:1.25em;border-left:5px solid rgba(255,255,255,0.5);margin:0;}
 blockquote p {margin-bottom: 0;}
 strong, em, a:link, a:hover, a:visited, span, li {font-family:inherit;font-size:inherit;font-weight:inherit;line-height:inherit;}
-a:link, a:hover, a:visited {color:rgba(48,48,255,1);}
+a:link, a:hover, a:visited {color:rgba(255,255,255,1);}
 a:hover {text-decoration:none;}
 strong {font-weight:700;}
 em {font-style:italic;}
 ul, ol {list-style-type:disc;margin-left:1.25em;}
 ol {list-style-type:decimal;}
-li {margin:0;color:rgba(51,51,51,1);}
+li {margin:0;color:rgba(255,255,255,1);}
 img, embed, object, video, iframe {max-width:100%;display:block;}
-hr {border: 0;height: 2px;background: rgba(238,238,238,1);margin: 1.25em 0;}
+hr {border: 0;height: 2px;background: rgba(255,255,255,0.5);margin: 1.25em 0;}
 @media (min-width: 43.75em) {blockquote {margin-left:1.25em;}}
 
 /*utility*/
@@ -50,15 +50,15 @@ hr {border: 0;height: 2px;background: rgba(238,238,238,1);margin: 1.25em 0;}
 .clear {zoom:1;}
 
 /*style*/ 
-body {}
+body {background:rgba(48,48,255,1);}
 .home, .project, .post {max-width:45em;margin:0 auto;padding:0 1.25em;}
 .project {max-width:60em;}
-.header {border-bottom:1px solid rgba(221,221,221,1);}
+.header {border-bottom:1px solid rgba(255,255,255,1);}
 .header h1 {margin-top:0;font-family:'pt serif',serif;}
-.header a:link, .header a:visited {color:rgba(17,17,17,1);text-decoration:none;}
-.header a:hover {color:rgba(48,48,255,1);}
-.header a {color:rgba(17,17,17,1);text-decoration:none;}
-.header p, .meta {color:rgba(119,119,119,1);}
+.header a:link, .header a:visited {color:rgba(255,255,255,1);text-decoration:none;}
+.header a:hover {color:rgba(1,1,164,1);}
+.header a {color:rgba(255,255,255,1);text-decoration:none;}
+.header p, .meta {color:rgba(255,255,255,1);}
 .home .header h1 {padding-top:5em;}
 .project .header, .project .info {max-width:42.5em;margin:0 auto;}
 .project .header h1 {padding-top:2.5em;}
@@ -68,7 +68,6 @@ body {}
 .home h2 {margin-top:2em;margin-bottom:1em;font-family:'pt serif';}
 .projects ul, .skills ul {list-style-type:none;display:block;margin:0;padding:0;}
 .projects h4, .skills h4 {margin-top:1.25em;}
-.projects .meta, .skills .meta {color:rgba(51,51,51,1);}
 .projects:first-of-type h4, .skills:first-of-type h4 {margin-top:0;}
 .project .info h1 {margin-top:0;padding-top:2em;font-family:'pt serif',serif;}
 .project .info p {margin-top:1em;margin-bottom:0;font-size:1.125em;}
@@ -77,10 +76,13 @@ body {}
 .screen {margin-bottom:2.5em;}
 .screen:last-child {margin-bottom:0;}
 .footer {margin:4.5em auto 0 auto;max-width:45em;padding:0 1.25em;}
-.links {border-top:1px solid rgba(221,221,221,1);list-style-type:none;display:block;margin:0;padding:0;text-align:center;}
-.links a {font-size:0.875em;color:rgba(17,17,17,1);text-decoration:none;color:rgba(119,119,119,1);}
-.links a:hover {color:rgba(48,48,255,1);}
+.links {border-top:1px solid rgba(255,255,255,1);list-style-type:none;display:block;margin:0;padding:0;text-align:center;}
+.links a {font-size:0.875em;text-decoration:none;color:rgba(255,255,255,1);}
+.links a:hover {color:rgba(1,1,164,1);}
 .links li {padding:1.25em 0 0; display:block;margin:0;}
 .links li:last-child {padding-bottom:1.25em;}
 .email, .twitter, .resume {float:none;}
 @media (min-width: 43.75em) {.links{text-align:left;}.links li {display:inline;padding:1.25em 2.5em 1.25em 0;}.email, .twitter {float:left;} .resume {float:right;}}
+a.btn {padding:1em 2em;font-size:0.75em;font-weight:700;text-transform:uppercase;}
+.header a.btn {position:absolute;top:2.5em;right:0;color:rgba(255,255,255,1);font-family:'pt serif',serif;background:rgba(1,1,164,1);border:2px solid rgba(1,1,164,1);}
+.header a.btn:hover {background:rgba(48,48,255,1);color:rgba(1,1,164,1);}
