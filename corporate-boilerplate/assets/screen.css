@@ -103,7 +103,7 @@ nav[role=navigation] li:last-of-type {border-bottom:0;}
 .mission h4 {margin-top:0;}
 .mission-statement {text-align:center;}
 .mission-statement span {display: inline-block;position: relative;}
-.mission-statement span:before,.mission-statement span:after {content: "";position: absolute;height: 1px;border-bottom: 1px solid rgba(214,214,214,1);top: 50%;width: 11.92857142857143em;}
+.mission-statement span:before,.mission-statement span:after {content: "";position: absolute;height: 1px;border-bottom: 1px solid rgba(214,214,214,1);top: 50%;max-width: 11.92857142857143em;}
 .mission-statement span:before {right: 100%;margin-right:1em;}
 .mission-statement span:after {left: 100%;margin-left:1em;}
 @media (min-width: 43.75em) {.mission p {max-width:45em;margin-right:auto;margin-left:auto;}.mission .col {padding:0 1.25em;}}
