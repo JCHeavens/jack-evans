@@ -60,7 +60,7 @@ a.btn:hover {background:rgba(48,48,255,1);color:rgba(1,1,164,1);}
 .notepad a.btn {background:rgba(48,48,255,1);border-color:rgba(48,48,255,1);}
 .notepad a.btn:hover {background:rgba(255,255,255,1);color:rgba(48,48,255,1);}
 @media (min-width: 43.75em) {a.btn{font-size:0.75em;}}
-.footer {margin:4em auto 0 auto;overflow:auto;border-top:1px solid rgba(255,255,255,1);}
+.footer {margin:4em auto 0 auto;overflow:auto;border-top:1px solid rgba(255,255,255,1);background:rgba(48,48,255,1);}
 .links {list-style-type:none;display:block;margin:0 auto;text-align:center;padding:0;max-width:42.5em;}
 .links a {font-size:0.875em;font-weight:700;text-decoration:none;}
 .links li {padding:1.25em 0 0; display:block;margin:0;}
@@ -90,4 +90,5 @@ a.btn:hover {background:rgba(48,48,255,1);color:rgba(1,1,164,1);}
 .note:last-of-type {border-bottom: 0;}
 .note a:link, .note a:hover, .note a:visited {color:rgba(48,48,255,1);}
 .note > blockquote {margin-bottom:1.2em;}
-.notepad .footer {background:rgba(17,17,17,0.06);max-width:100%;border-top:0;}
+.notepad .footer a {color:rgba(255,255,255,1);}
+.notepad .footer a:hover {color:rgba(1,1,164,1);}
