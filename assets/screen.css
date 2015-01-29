@@ -62,7 +62,7 @@ a.btn:hover {background:rgba(48,48,255,1);color:rgba(1,1,164,1);}
 @media (min-width: 43.75em) {a.btn{font-size:0.75em;}}
 .footer {margin:4em auto 0 auto;overflow:auto;background:rgba(48,48,255,1);}
 .links {list-style-type:none;display:block;margin:0 auto;padding:0 1.25em;max-width:42.5em;border-top:1px solid rgba(255,255,255,1);}
-.links a {font-family:'pt serif',serif;font-weight:700;text-decoration:none;}
+.links a {font-family:'pt serif',serif;font-weight:700;font-size:0.875em;text-decoration:none;}
 .links li {padding:1.25em 0 0; display:block;margin:0;}
 .links li:last-child {padding-bottom:1.25em;}
 .email, .twitter, .resume {float:none;}
