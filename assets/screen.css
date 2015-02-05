@@ -13,7 +13,7 @@ blockquote {font-size: 1.25em;line-height:1.25;}
 @media (min-width: 56.25em) {h1 {font-size: 3em;line-height: 1.05;}h2 {font-size: 2.25em;line-height: 1.25;}h3 {font-size: 1.75em;line-height: 1.25;}}
 
 /*default*/
-*, *:before, *:after {-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing: grayscale;transition:all 0.2s ease-in-out;}
+*, *:before, *:after {-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing: grayscale;}
 html, body, header, footer, main, nav, section, article, aside, div {margin:0;padding:0;position:relative;width:100%;height:auto;font-family:'inconsolata',sans-serif;font-weight:400;color:rgba(255,255,255,1);}
 header, footer, main, nav, section, article, aside, div {height:auto;}
 h1, h2, h3, h4 {font-weight:700;margin-top:0.5em; margin-bottom:0.5em;}
@@ -22,7 +22,7 @@ blockquote {padding:1.25em;border-left:5px solid rgba(255,255,255,0.2);margin:0;
 blockquote p {margin-bottom: 0;}
 @media (min-width: 43.75em) {blockquote {margin-left:1.25em;}}
 strong, em, a:link, a:hover, a:visited, span, li {font-family:inherit;font-size:inherit;font-weight:inherit;line-height:inherit;}
-a:link, a:hover, a:visited {color:rgba(255,255,255,1);text-decoration:none;padding-bottom:0.125em;border-bottom:3px solid rgba(255,255,255,0.3);}
+a:link, a:hover, a:visited {color:rgba(255,255,255,1);text-decoration:none;padding-bottom:0.125em;border-bottom:3px solid rgba(255,255,255,0.3);transition:all 0.2s ease-in-out;}
 a:hover {color:rgba(0,0,0,0.5);border-bottom-color:rgba(0,0,0,0.5);}
 strong {font-weight:700;}
 em {font-style:italic;}
