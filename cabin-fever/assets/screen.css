@@ -70,7 +70,6 @@ body {}
 .things li {margin:1em 0 0 0;}
 .footer h1 {font-weight:400;text-align:center;margin-bottom:2em;color:rgba(153,153,153,1);padding:0 1.25em;}
 .footer > .col {width:50%;}
-.footer img {opacity:0.6;}
 .what-to-bring .footer {max-width:60em;margin:0 auto;text-align:center;}
 @media (min-width: 56.25em) {.footer > .col {width:25%}}
 .themes h4 {padding:5em;text-align:center;margin:0;font-family:'josefin sans',sans-serif;font-weight:700;}
