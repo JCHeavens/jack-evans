@@ -1,61 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <title>Jack Evans | Graphic + Interactive Design</title>
-        <meta name="description" content="I construct digital experiences that function beautifully on any device with internet access." />
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Jack Evans | Web Designer</title>
+		<meta name="description" content="I design interfaces that function beautifully on all screens." />
         <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-        <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic|Inconsolata:400,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" type="text/css" href="assets/screen.css" />
-    </head>
+        <link href='http://fonts.googleapis.com/css?family=Fira+Sans:300italic,400,700|Fira+Mono:700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="assets/screen.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>$(document).ready(function() {
+  			$('.fade')
+      			.delay(300)      
+      			.css({"opacity":1})
+			});
+		</script>
+	</head>
 <body>
-<main class="main" role="main">
-	<header class="header">
-    	<h1><a href="index.html">Jack Evans</a></h1>
-    	<p>Graphic + Interactive Design</p>
-	</header>
-    <section class="about">
-        <h3>I construct digital experiences that function beautifully on any device with internet access.</h3>
-    </section>
-    <section class="work">
-        <h2>Work</h2>
-        <ul>
-            <li><h4><a target="_blank" href="oer-pattern-library/index.html">Pattern Library</a></h4>
-                <span class="meta">NOAA Ocean Exploration and Research</span>
-            </li>
-            <li><h4><a target="_blank" href="oer-email-template/index.html">Responsive Email Template</a></h4>
-                <span class="meta">NOAA Ocean Exploration and Research</span>
-            </li>
-            <li><h4><a target="_blank" href="http://www.oceanexplorer.noaa.gov/world-oceans-day">Ocean Exploration Matters</a></h4>
-                <span class="meta">NOAA Ocean Exploration and Research</span>
-            </li>
-        </ul>
-    </section>
-    <section class="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li><h4>Languages</h4>
+	<div class="contain fade">
+    	<header class="header">
+        	<h1><a href="index">Jack Evans</a></h1>
+        </header>
+        <main class="main" role="main">
+        	   <h2>I design interfaces that function beautifully on all screens.</h2>
+        	   <h3>Work</h3>
                 <ul>
-                    <li><span class="meta">HTML5</span><li>
-                    <li><span class="meta">CSS3</span><li>
-                    <li><span class="meta">JQuery</span><li>
+                   <li><a href="http://gentlemanloser.io">Gentleman Loser</a></li>
                 </ul>
-            </li>
-            <li><h4>Software</h4>
+                <h3>Skills</h3>
                 <ul>
-                    <li><span class="meta">Photoshop</span><li>
-                    <li><span class="meta">Illustrator</span><li>
-                    <li><span class="meta">InDesign</span><li>
-                    <li><span class="meta">Google Analytics</span><li>
+            	   <li>Responsive design</li>
+                    <li>User experience</li>
+                    <li>Web typography</li>
+                    <li>Rapid prototyping</li>
                 </ul>
-            </li>
-        </ul>
-    </section>
-    <section class="contact">
-        <h4>&rarr; <a href="mailto:heavens.jc@gmail.com">heavens.jc@gmail.com</a></h4>
-    </section>
-</main>
+                <h3>Contact</h3>
+                <ul>
+                   <li><a href="">@JCHeavens</a></li>
+                </ul>
+        </main>
+    </div>
 </body>
 </html>
