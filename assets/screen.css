@@ -75,7 +75,3 @@ body {background:#151515;text-align:center;}
 .main p.links {margin-top:3em;} 
 .fade {transition:opacity 1s ease-in-out;opacity:0;}
 
-/* gentleman loser */
-.gentleman-loser {background:#00ffff;text-align:center;}
-.gentleman-loser header, footer, main, nav, section, article, aside, div {color:#151515;}
-
