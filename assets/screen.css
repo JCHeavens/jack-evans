@@ -59,7 +59,7 @@ hr {border: 0;height: 2px;background:#eeeeee;margin: 1.25em 0;}
 .four > .col {width:25%;}
 
 /*styling*/
-body {background:#000000;text-align:center;}
+body {background:#111111;text-align:center;}
 @media (min-width: 43.75em) {body {text-align:left;}}
 .contain {max-width:30em;margin:0 auto;padding:6.875em 0;}
 @media (min-width: 43.75em) {.contain {max-width:60em;padding:7.5em 0;}}
