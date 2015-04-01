@@ -62,10 +62,10 @@ hr {border: 0;height: 2px;background:#eeeeee;margin: 1.25em 0;}
 body {background:#222222;text-align:center;}
 @media (min-width: 43.75em) {body {text-align:left;}}
 .contain {max-width:30em;margin:0 auto;padding:6.875em 0;}
-@media (min-width: 43.75em) {.contain {max-width:60em;padding:7.5em 0;}}
+@media (min-width: 43.75em) {.contain {max-width:45em;padding:7.5em 0;}}
 @media (min-width: 56.25em) {.contain {padding:8.75em 0;}}
 .header, .main {margin:0 auto;padding:0 1.25em;}
-.main h2 {font-weight:100;margin:2em 0 3em;max-width:15em;color:#aaaaaa;}
+.main h2 {font-weight:100;margin:2em auto 3em;max-width:15em;color:#aaaaaa;}
 .main h3 {margin:3em auto 1em;max-width:15em;}
 @media (min-width: 43.75em) {.main h3 {margin:4em 0 1em;}}
 .main h3:first-of-type {margin-top:0;}
