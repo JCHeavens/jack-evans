@@ -25,8 +25,8 @@ html, body, header, footer, main, nav, section, article, aside, div {margin:0;pa
 header, footer, main, nav, section, article, aside, div {height:auto;}
 h1, h2, h3, h4 {margin-top:0.5em; margin-bottom:0.5em;font-weight:500;color:#ffffff;}
 p {margin-bottom:1em;margin-top:0;}
-blockquote {padding:1.25em;border-left:5px solid #eeeeee;margin:0;}
-@media (min-width: 43.75em) {blockquote {margin-left:1.25em;}}
+blockquote {padding:0.8335em 0;margin:0;font-weight:400;font-style:italic;}
+blockquote:before {content: '\201c';display: block;font-size: 300%;font-style:normal;line-height: 0.5;padding-top:0.0972em;}
 blockquote p {margin-bottom: 0;}
 strong, em, a:link, a:hover, a:visited, span, li {font-family:inherit;font-size:inherit;font-weight:inherit;line-height:inherit;}
 a:link, a:hover, a:visited {color:#00ffff;text-decoration:none;}
