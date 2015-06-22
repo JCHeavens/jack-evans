@@ -3,7 +3,8 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 
 /* type */
 body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {font-size-adjust: 0.5;}
-body, h1 {font-size: 100%;font-size: 1em;line-height: 1.40625;}
+body {font-size: 100%;font-size: 1em;line-height: 1.40625;}
+h1, .header p {font-size:1.125em;line-height:1.45833333333333;}
 @media (min-width: 22.5em) {}
 
 /* default */
