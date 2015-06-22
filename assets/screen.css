@@ -57,7 +57,7 @@ hr {border: 0;height: 2px;background:#eeeeee;margin: 1.25em 0;}
 .header p {font-style:italic;color:#999999;margin:0;}
 
 ul.projects-list, .projects-list li  {margin:0;padding: 0;list-style-type:none;} 
-ul.projects-list {background:#f9f9f9;padding:3.75em 0;}
+ul.projects-list {background:#eeeeee;padding:3.75em 0;}
 ul.projects-list time {font-size: 0.875em;line-height:1.25;text-transform:uppercase;}
 ul.projects-list h3 {margin: 0.3125em 0 0.625em;}
 ul.projects-list li p:last-of-type {margin-bottom:0;}
@@ -65,7 +65,7 @@ ul.projects-list li p:last-of-type {margin-bottom:0;}
 .project {padding:0 0.9375em;margin:0 auto;max-width: 52.5em;}
 .project-info {padding: 3.75em 0.9375em 5.625em;}
 
-.browser-mock {padding-top:1.875em;background:#eeeeee;border-radius:0.3125em 0.3125em 0 0;}
+.browser-mock {padding-top:1.875em;background:#ffffff;border-radius:0.3125em 0.3125em 0 0;}
 .browser-dots {position: absolute;top: 0.625em;left: 0.9375em;}
 .browser-dots span {display: block;float: left;text-indent: -999em;width: 0.625em;height: 0.625em;-moz-border-radius: 0.625em;-webkit-border-radius: 0.625em;border-radius: 0.625em;margin-right: 0.3125em;}
 span:nth-of-type(1) {background:#FF6666;}
