@@ -54,15 +54,18 @@ hr {border: 0;height: 2px;background:#eeeeee;margin: 1.25em 0;}
 .header p {font-style:italic;color:#999999;margin:0;}
 
 ul.projects-list, .projects-list li  {margin:0;list-style-type:none;} 
-ul.projects-list {background:#fafafa;padding: 2.5em 0;}
+ul.projects-list {padding: 2.5em 0;}
 ul.projects-list time {font-size:0.875em;line-height:1.25;text-transform:uppercase;}
 ul.projects-list h3 {margin: 0.41666666666667em 0 0.83333333333334em;}
 ul.projects-list li p:last-of-type {margin-bottom:0;}
 
 .project, .project-info {padding:0 0.9375em;}
 
-.browser-mock {padding-top:1.875em;background:#cccccc;border-radius:0.3125em 0.3125em 0 0;}
+.browser-mock {padding-top:1.875em;background:#fafafa;border-radius:0.3125em 0.3125em 0 0;}
 .browser-dots {position: absolute;top: 0.625em;left: 0.9375em;}
-.browser-dots span {display: block;float: left;text-indent: -999em;width: 0.625em;height: 0.625em;-moz-border-radius: 0.625em;-webkit-border-radius: 0.625em;border-radius: 0.625em;margin-right: 0.3125em;background:#ffffff;}
+.browser-dots span {display: block;float: left;text-indent: -999em;width: 0.625em;height: 0.625em;-moz-border-radius: 0.625em;-webkit-border-radius: 0.625em;border-radius: 0.625em;margin-right: 0.3125em;}
+span:nth-of-type(1) {background:#FF6666;}
+span:nth-of-type(2) {background:#FFFF66;}
+span:nth-of-type(3) {background:#66FF99;}
 .fade {transition:opacity 1s ease-in-out;opacity:0;}
 
