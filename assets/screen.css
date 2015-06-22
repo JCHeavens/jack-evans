@@ -3,16 +3,14 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 
 /* type */
 body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {font-size-adjust: 0.5;}
-body {font-size: 100%;font-size: 1em;line-height: 1.40625;}
-h1, .header p  {font-size: 1.375em;line-height: 1.25;}
-h3 {font-size:1.125em;line-height:1.25;}
+body, h1 {font-size: 100%;font-size: 1em;line-height: 1.40625;}
 @media (min-width: 22.5em) {}
 
 /* default */
 *, *:before, *:after {-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing: grayscale;}
-html, body, header, footer, main, nav, section, article, aside, div {margin:0;padding:0;position:relative;width:100%;height:100%;color:#666666;font-family:'jaf-facitweb',sans-serif;font-weight:300;}
+html, body, header, footer, main, nav, section, article, aside, div {margin:0;padding:0;position:relative;width:100%;height:100%;color:#666666;font-family:'jaf-facitweb',sans-serif;font-weight:400;}
 header, footer, main, nav, section, article, aside, div {height:auto;}
-h1, h2, h3, h4 {margin-top:0.5em; margin-bottom:0.5em;font-weight:600;color:#444444;}
+h1, h2, h3, h4 {margin-top:0.5em; margin-bottom:0.5em;font-weight:700;color:#444444;}
 p {margin-bottom:1em;margin-top:0;}
 blockquote {padding:0.8335em 0;margin:0;font-weight:400;font-style:italic;}
 blockquote:before {content: '\201c';display: block;font-size: 300%;font-style:normal;line-height: 0.5;padding-top:0.0972em;}
@@ -51,7 +49,7 @@ hr {border: 0;height: 2px;background:#eeeeee;margin: 1.25em 0;}
 .contain {margin:0 auto;border-top:0.625em #444444 solid;}
 
 .header {margin:0 auto;padding: 5.625em 1.875em 2.8125em;}
-.header h1 {margin:0 0 1.5em}
+.header h1 {margin:0 0 1.5em;text-transform:uppercase;}
 .header p {font-style:italic;color:#999999;margin:0;}
 
 .projects-list-header {padding:0.625em 1.875em;background:#eeeeee;}
