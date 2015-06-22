@@ -4,7 +4,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 /* type */
 body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {font-size-adjust: 0.5;}
 body {font-size: 100%;font-size: 1em;line-height: 1.40625;}
-h1, .header p {font-size:1.125em;line-height:1.45833333333333;}
+h1 {font-size:1.125em;line-height:1.45833333333333;}
 @media (min-width: 22.5em) {}
 
 /* default */
@@ -49,8 +49,8 @@ hr {border: 0;height: 2px;background:#eeeeee;margin: 1.25em 0;}
 /*styling*/
 .contain {margin:0 auto;}
 
-.header {margin:0 auto;padding: 3.75em 1.875em 1.875em;}
-.header h1 {margin: 0 0 .75em;}
+.header {margin:0 auto;padding: 5.625em 1.875em 2.5em;}
+.header h1 {margin: 0 0 0.83333333333334em;}
 .header p {font-style:italic;color:#999999;margin:0;}
 
 ul.projects-list, .projects-list li  {margin:0;list-style-type:none;} 
