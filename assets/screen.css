@@ -5,19 +5,8 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {font-size-adjust: 0.5;}
 body, .main h3 {font-size: 100%;font-size: 1em;line-height: 1.25;}
 @media (min-width: 43.75em) {body, .main h3 {line-height: 1.375;}}
-h1  {font-size: 2em;line-height: 1.25;}
-@media (min-width: 43.75em) {h1 {font-size: 2.5em;line-height: 1.125;}}
-@media (min-width: 56.25em) {h1 {font-size: 3em;line-height: 1.05;}}
-h2 {font-size: 1.625em;line-height:1.15384615;}
-@media (min-width: 43.75em) {h2 {font-size: 2em;line-height: 1.25;}}
-@media (min-width: 56.25em) {h2 {font-size: 2.25em;line-height: 1.25;}}
-h3, .header h1 {font-size: 1.375em;line-height: 1.13636364;}
-@media (min-width: 43.75em) {h3, .header h1 {font-size: 1.5em;line-height: 1.25;}}
-@media (min-width: 56.25em) {h3, .header h1 {font-size: 1.75em;line-height: 1.25;}}
-h4  {font-size: 1.125em;line-height: 1.11111111;}
-@media (min-width: 43.75em) {h4 {line-height: 1.22222222;}}
-blockquote {font-size: 1.25em;line-height:1.25;}
-@media (min-width: 43.75em) {blockquote {font-size:1.5em;line-height:1.45833333;}}
+h1  {font-size: 1.25em;line-height: 1.25;}
+
 
 /* default */
 *, *:before, *:after {-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing: grayscale;}
@@ -59,10 +48,13 @@ hr {border: 0;height: 2px;background:#eeeeee;margin: 1.25em 0;}
 .four > .col {width:25%;}
 
 /*styling*/
-@media (min-width: 43.75em) {body {text-align:left;}}
-.contain {max-width:30em;margin:0 auto;padding:6.875em 0;}
-@media (min-width: 43.75em) {.contain {max-width:45em;padding:7.5em 0;}}
-@media (min-width: 56.25em) {.contain {padding:8.75em 0;}}
+.contain {margin:0 auto;}
+.header h1 {margin:3em 0 0}
+
+
+
+
+
 .header, .main {margin:0 auto;padding:0 1.25em;}
 .main h2 {font-weight:400;font-style:italic;margin:2em auto 3em;max-width:15em;color:#666666;}
 @media (min-width: 43.75em) {.main h2 {margin-left:0;margin-right:0;}}
