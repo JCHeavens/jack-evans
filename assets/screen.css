@@ -58,5 +58,10 @@ ul.projects-list {background:#fafafa;padding: 2.5em 1.875em;}
 ul.projects-list time {font-size:0.875em;line-height:1.25;text-transform:uppercase;}
 ul.projects-list h3 {margin: 0.41666666666667em 0 0.83333333333334em;}
 ul.projects-list li p:last-of-type {margin-bottom:0;}
+
+.browser-mock {padding-top:1.875em;background:#666666;border-radius:0.3125em 0.3125em 0 0;}
+.browser-dots {position: absolute;top: 0.625em;left: 0.9375em;}
+.browser-dots span {display: block;float: left;text-indent: -999em;width: 0.625em;height: 0.625em;-moz-border-radius: 0.625em;-webkit-border-radius: 0.625em;border-radius: 0.625em;background-color: #ffffff;margin-right: 0.3125em;}
+
 .fade {transition:opacity 1s ease-in-out;opacity:0;}
 
