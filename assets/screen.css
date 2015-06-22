@@ -46,10 +46,10 @@ hr {border: 0;height: 2px;background:#eeeeee;margin: 1.25em 0;}
 .four > .col {width:25%;}
 
 /*styling*/
-.contain {margin:0 auto;border-top:0.625em #444444 solid;}
+.contain {margin:0 auto;}
 
 .header {margin:0 auto;padding: 3.75em 1.875em 1.875em;}
-.header h1 {margin:0 0 1.5em;}
+.header h1 {margin: 0 0 .75em;}
 .header p {font-style:italic;color:#999999;margin:0;}
 
 ul.projects-list, .projects-list li  {margin:0;list-style-type:none;} 
