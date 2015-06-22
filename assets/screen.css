@@ -42,14 +42,11 @@ hr {border: 0;height: 2px;background:#eeeeee;margin: 1.25em 0;}
 .clear:before, .clear:after {content:"";display:table;}
 .clear:after {clear:both;}
 .clear {zoom:1;}
-.one > .col {width:100%;}
-.two > .col {width:50%;}
-.three > .col {width:33.333%;}
-.four > .col {width:25%;}
+.section:first-of-type > .col {width:37.5%;}
+.section:last-of-type > .col {width:62.5%;}
+@media (min-width: 43.75em) {.section:first-of-type > .col {padding-right:0.9375em;}.section:last-of-type > .col {padding-left:0.9375em;}}
 
 /*styling*/
-.contain {}
-@media (min-width: 37.5em) {.contain {}}
 
 .header {margin:0 auto;max-width: 52.5em;}
 .header-content {max-width: 23.333333em;padding: 5.625em 1.875em 3.75em;}
