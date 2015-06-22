@@ -48,14 +48,12 @@ hr {border: 0;height: 2px;background:#eeeeee;margin: 1.25em 0;}
 /*styling*/
 .contain {margin:0 auto;border-top:0.625em #444444 solid;}
 
-.header {margin:0 auto;padding: 5.625em 1.875em 2.8125em;}
-.header h1 {margin:0 0 1.5em;text-transform:uppercase;}
+.header {margin:0 auto;padding: 3.75em 1.875em 1.875em;}
+.header h1 {margin:0 0 1.5em;}
 .header p {font-style:italic;color:#999999;margin:0;}
 
-.projects-list-header {padding:0.625em 1.875em;background:#eeeeee;}
-.projects-list-header h2 {font-size:0.875em;line-height:1.25;text-transform:uppercase;}
 ul.projects-list, .projects-list li  {margin:0;list-style-type:none;} 
-ul.projects-list {background:#f4f4f4;padding: 2.5em 1.875em;}
+ul.projects-list {background:#fafafa;padding: 2.5em 1.875em;}
 ul.projects-list time {font-size:0.875em;line-height:1.25;text-transform:uppercase;}
 ul.projects-list h3 {margin: 0.41666666666667em 0 0.83333333333334em;}
 ul.projects-list li p:last-of-type {margin-bottom:0;}
