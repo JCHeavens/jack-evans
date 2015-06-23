@@ -35,10 +35,11 @@ hr {border: 0;height: 2px;background:#eeeeee;margin: 1.25em 0;}
 .table {display:table;}
 .center {display:table-cell;vertical-align:middle;}
 
+body {border-top: 0.3125em solid #444444;border-bottom: 0.3125em solid #444444;}
 
 /* header */
 
-.header {margin:0 auto;max-width: 52.5em;border-top: 0.3125em solid #444444;}
+.header {margin:0 auto;max-width: 52.5em;}
 .header-content {max-width: 23.333333em;padding: 7.5em 1.875em 3.75em;}
 .header h1 {margin: 0 0 0.83333333333334em;}
 .header p {font-style:italic;color:#999999;margin:0;}
