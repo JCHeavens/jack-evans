@@ -36,14 +36,15 @@ hr {border: 0;height: 2px;background:#eeeeee;margin: 1.25em 0;}
 .center {display:table-cell;vertical-align:middle;}
 
 /* grid */
-.grid {clear: both;padding: 0;margin: 0;overflow: hidden;max-width: 52.5em;margin: 0 auto;}
+.projects-container {max-width: 52.5em;margin: 0 auto;}
+.grid {clear: both;padding: 0;margin: 0;overflow: hidden;}
 .col {display: block;float:left;width:100%;}
 .col:last-of-type {margin-bottom:0;}
 .clear:before, .clear:after {content:"";display:table;}
 .clear:after {clear:both;}
 .clear {zoom:1;}
 
-@media (min-width: 36.9140625em) {.col:nth-of-type(1), .col:nth-of-type(4) {width:37.5%;} .col:nth-of-type(2), .col:nth-of-type(3) {width:62.5%;}}
+@media (min-width: 36.9140625em) {.grid .col:first-of-type {width:37.5%;}.grid .col:last-of-type {width:62.5%;} .grid:last-of-type .col:first-of-type {width:62.5%;} .grid:last-of-type .col:first-of-type {width:37.5%;}}
 
 
 /*styling*/
