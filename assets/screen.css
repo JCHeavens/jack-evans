@@ -53,7 +53,7 @@ body {border-top: 0.3125em solid #444444;border-bottom: 0.3125em solid #444444;}
 .clear:after {clear:both;}
 .clear {zoom:1;}
 .grid > .col {width:100%;}
-@media (min-width: 40em) {.grid > .col {width:50%;}}
+@media (min-width: 30em) {.grid > .col {width:50%;}}
 
 /* projects */
 
@@ -65,6 +65,13 @@ body {border-top: 0.3125em solid #444444;border-bottom: 0.3125em solid #444444;}
 span:nth-of-type(1) {background:#FF6666;}
 span:nth-of-type(2) {background: #FFCC33;}
 span:nth-of-type(3) {background:#66CC66;}
+
+/* footer */
+
+.footer {background:#ffffff;}
+.footer .links {margin:0 auto;max-width: 52.5em;padding:3.75em 1.875em;}
+.links ul, .links li {margin:0;padding:0;}
+.links a {text-decoration:none;font-weight:700;}
 
 .fade {transition:opacity 1s ease-in-out;opacity:0;}
 
