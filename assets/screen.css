@@ -52,9 +52,9 @@ hr {border: 0;height: 2px;background:#eeeeee;margin: 1.25em 0;}
 
 .main {background:#eeeeee;padding-top:1.875em}
 
+@media (min-width: 36.9140625em) {.col:nth-of-type(1), .col:nth-of-type(4) {width:37.5%;} .col:nth-of-type(2), .col:nth-of-type(3) {width:62.5%;}}
 
-
-.project {padding:0 0.9375em;}
+.project {padding:0 0.9375em 1.875em;}
 
 .browser-mock {padding-top:1.875em;background:#ffffff;border-radius:0.3125em 0.3125em 0 0;}
 .browser-dots {position: absolute;top: 0.625em;left: 0.9375em;}
