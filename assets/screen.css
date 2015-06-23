@@ -71,7 +71,7 @@ span:nth-of-type(3) {background:#66CC66;}
 .footer {background:#ffffff;}
 .footer .links {margin:0 auto;max-width: 52.5em;padding:2.5em 1.875em;}
 .links ul, .links li {margin:0;padding:0;list-style-type:none;}
-.links li:last-of-type {margin-top:1.875em;}
+.links li:last-of-type {margin-top: 0.9375em;}
 .links a {text-decoration:none;font-weight:700;}
 
 .fade {transition:opacity 1s ease-in-out;opacity:0;}
