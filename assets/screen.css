@@ -38,8 +38,8 @@ hr {border: 0;height: 2px;background:#eeeeee;margin: 1.25em 0;}
 
 /* header */
 
-.header {margin:0 auto;max-width: 52.5em;}
-.header-content {max-width: 23.333333em;padding: 5.625em 1.875em 3.75em;}
+.header {margin:0 auto;max-width: 52.5em;border-top: 0.3125em solid #444444;}
+.header-content {max-width: 23.333333em;padding: 7.5em 1.875em 3.75em;}
 .header h1 {margin: 0 0 0.83333333333334em;}
 .header p {font-style:italic;color:#999999;margin:0;}
 
@@ -52,10 +52,11 @@ hr {border: 0;height: 2px;background:#eeeeee;margin: 1.25em 0;}
 .clear:after {clear:both;}
 .clear {zoom:1;}
 .grid > .col {width:100%;}
+@media (min-width: 40em) {.grid > .col {width:50%;}}
 
 /* projects */
 
-.projects {background:#eeeeee;}
+.projects {background:#eeeeee;padding-top: 1.875em;}
 .project {padding:0 0.9375em 1.875em;}
 .browser-mock {padding-top:1.875em;background:#ffffff;border-radius:0.3125em 0.3125em 0 0;}
 .browser-dots {position: absolute;top: 0.625em;left: 0.9375em;}
