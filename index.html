@@ -11,12 +11,14 @@
         <script>try{Typekit.load();}catch(e){}</script>
 		<link rel="stylesheet" type="text/css" href="assets/screen.css" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>$(document).ready(function() {
-  			$('.fade')
-      			.delay(300)      
-      			.css({"opacity":1})
-			});
-		</script>
+        <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+        <script src="assets/js/packery-pkdg-min.js"></script>
+        <script>
+            $(document).ready(function() {
+                var $container = $('#projects-container').imagesLoaded( function() {
+            $container.packery({itemSelector: ".col"});} );
+            });
+        </script>
 	</head>
 <body>
 
@@ -33,11 +35,11 @@
 
         <main class="main" role="main">
 
-            <div class="projects-list section">
+            <div id="projects-container">
 
-                <div class="col">
+                <div class="grid clear">
 
-                    <div class="project">
+                    <div class="project col">
 
                         <div class="browser-mock">
                             <div class="browser-dots"><span>•</span><span>•</span><span>•</span></div>
@@ -48,16 +50,34 @@
 
                     </div>
 
-                </div>
-
-                <div class="col">
-
-                    <div class="project">
+                    <div class="project col">
 
                         <div class="browser-mock">
                             <div class="browser-dots"><span>•</span><span>•</span><span>•</span></div>
                             <div class="screenshot">
                                 <img src="assets/world-oceans-day-screen.jpg" />
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="project col">
+
+                        <div class="browser-mock">
+                            <div class="browser-dots"><span>•</span><span>•</span><span>•</span></div>
+                            <div class="screenshot">
+                                <img src="assets/annual-report-screen.jpg" />
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="project col">
+
+                        <div class="browser-mock">
+                            <div class="browser-dots"><span>•</span><span>•</span><span>•</span></div>
+                            <div class="screenshot">
+                                <img src="assets/oer-pattern-library-screen.jpg" />
                             </div>
                         </div>
 
@@ -70,6 +90,13 @@
         </main>
 
     </div>
+
+    <script>$(document).ready(function() {
+        $('.fade')
+            .delay(300)      
+            .css({"opacity":1})
+        });
+    </script>
 
 </body>
 </html>
