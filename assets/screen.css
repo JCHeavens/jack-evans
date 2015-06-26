@@ -62,8 +62,8 @@ nav ul, nav li {list-style-type:none;margin:0;padding:0;}
 .post-content p:first-of-type {margin-top:0;}
 .post-content p:last-of-type {margin-bottom:0;}
 .projects-list {text-align:center;}
-.projects-list ul, .projects-list li {margin:0;padding:0;list-style-type:none;}
-.projects-list li, .contact-list li {margin-bottom:3.75em;}
+.projects-list ul {margin:0;padding:0;list-style-type:none;}
+.projects-list li {margin-bottom:5.625em;}
 .projects-list li:last-of-type {margin-bottom:0;}
 .projects-list li a {display:block;font-weight:700;}
 
