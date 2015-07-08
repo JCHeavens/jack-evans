@@ -39,7 +39,7 @@ nav ul, nav li {list-style-type:none;margin:0;padding:0;}
 .page-header {display:table;text-align:center;padding: 0 2.5em;}
 .page-header > div {display:table-cell;vertical-align:middle;}
 .page-header h1 {margin: 0 auto;max-width:15em;}
-.site-navigation li {position:fixed;line-height:3.75;padding: 0 1.25em; -webkit-backface-visibility: hidden;-webkit-transform: translateZ(0);font-weight:700;}
+.site-navigation li {position:fixed;line-height:3.75;padding: 0 1.25em; -webkit-backface-visibility: hidden;-webkit-transform: translateZ(0);font-family:'jaf-bernina-sans-condensed',helvetica,verdana,sans-serif;font-weight:700;}
 .site-navigation li.home {top:0;left:0;}
 .site-navigation li.projects {top:0;right:0;}
 .site-navigation li.process {bottom:0;left:0;}
@@ -65,7 +65,7 @@ nav ul, nav li {list-style-type:none;margin:0;padding:0;}
 .projects-list ul {margin:0;padding:0;list-style-type:none;}
 .projects-list li {margin-bottom:5.625em;}
 .projects-list li:last-of-type {margin-bottom:0;}
-.projects-list li a {display:block;font-family:'jaf-bernina-sans-condensed',helvetica,verdana,sans-serif;font-weight:700;}
+.projects-list li a {display:block;}
 .process-page-post .page-header h1 {margin-bottom:0.20833333333333em;}
 
 
