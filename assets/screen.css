@@ -51,7 +51,7 @@ nav ul, nav li {list-style-type:none;margin:0;padding:0;}
 .projects-link:before, .process-link:before, .post-link:before, .read-more-link:before {bottom:auto;top:0;margin-bottom:0;margin-top:-3.75em;}
 .post-link:first-of-type:before {display:none;}
 .projects-link, .process-link, .post-link, .read-more-link, .projects-list, .contact-email {padding:0 2.5em;height:100%;display:table;text-align:center;}
-.projects-link > div, .process-link > div, .post-link > div, .read-more-link > div, .projects-list > div, .contact-email > div {display:table-cell;vertical-align:middle;}
+.projects-link > div, .process-link > div, .post-link > div, .read-more-link > div, .projects-list li > div, .contact-email > div {display:table-cell;vertical-align:middle;}
 .projects-link p, .process-link p, .read-more-link p, .contact-email p {margin:0;font-weight:400;}
 .projects-list li a, .post-link h2 {margin: 0 0 0.3125em;font-weight:700;}
 .projects-link p a, .projects-list li a, .process-link p a, .post-link h2 a, .read-more-link p a, .contact-email p a {color:#444444;}
@@ -62,8 +62,8 @@ nav ul, nav li {list-style-type:none;margin:0;padding:0;}
 .post-content p:first-of-type {margin-top:0;}
 .post-content p:last-of-type {margin-bottom:0;}
 .projects-list {text-align:center;height:125%;}
-.projects-list ul {margin:0;padding:0;list-style-type:none;}
-.projects-list li {margin-bottom:3.75em;}
+.projects-list ul {margin:0;padding:0;list-style-type:none;height:100%;}
+.projects-list li {margin-bottom:3.75em;height:100%}
 .projects-list li:last-of-type {margin-bottom:0;}
 .projects-list li a {display:block;}
 .process-page-post .page-header h1 {margin-bottom:0.20833333333333em;}
