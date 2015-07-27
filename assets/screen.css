@@ -69,6 +69,6 @@ nav ul, nav li {list-style-type:none;margin:0;padding:0;}
 .process-page-post .page-header h1 {margin-bottom:0.20833333333333em;}
 
 /* mobile landscape view fix */
-@media (max-height: 25.875em) {body {font-size:1em;}.projects-list {height:150%;}}
+@media (max-height: 25.875em) {body {font-size:1em;}.projects-list {height:400%;}}
 
 
