@@ -63,7 +63,7 @@ nav ul, nav li {list-style-type:none;margin:0;padding:0;}
 .post-content p:last-of-type {margin-bottom:0;}
 .projects-list {text-align:center;height: 400%;}
 .projects-list ul {margin:0;padding:0;list-style-type:none;height:100%;}
-.projects-list li {height: 25%;display:table;text-align:center;width: 100%;}
+.projects-list li {height: 25%;display:table;text-align:center;width:100%;position:relative;}
 .projects-list li:last-of-type {margin-bottom:0;}
 .projects-list li a {display:block;}
 .process-page-post .page-header h1 {margin-bottom:0.20833333333333em;}
