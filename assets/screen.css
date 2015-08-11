@@ -45,7 +45,7 @@ nav ul, nav li {list-style-type:none;margin:0;padding:0;}
 .site-navigation li.process {bottom:0;left:0;}
 .site-navigation li.contact {bottom:0;right:0;}
 .site-navigation a {font-size:0.875em;text-decoration:none;}
-.site-navigation a:hover, .site-navigation a:focus, .home-page .site-navigation li.home a, .projects-page .site-navigation li.projects a, .process-page .site-navigation li.process a, .contact-page .site-navigation li.contact a {text-decoration: none;color: #6666ff;border-bottom: 0.15625em solid #6666ff;padding-bottom: 0.15625em;}
+.site-navigation a:hover, .site-navigation a:focus, .home-page .site-navigation li.home a, .projects-page .site-navigation li.projects a, .process-page .site-navigation li.process a, .contact-page .site-navigation li.contact a {text-decoration: none;color: #6666ff;border-bottom: 0.17857142857143em solid #6666ff;padding-bottom: 0.17857142857143em;}
 .main {height:100%;}
 .page-header:after, .projects-link:before, .projects-list li:before, .process-link:before, .post-link:before, .read-more-link:before {content:"";position:absolute;bottom:0;left:0;right:0;text-align:center;width: 0.9375em;height: 7.5em;margin: 0 auto -3.75em;background: #eeeeee;}
 .projects-link:before, .projects-list li:before, .process-link:before, .post-link:before, .read-more-link:before {bottom:auto;top:0;margin-bottom:0;margin-top:-3.75em;}
