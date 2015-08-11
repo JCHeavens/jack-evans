@@ -54,10 +54,10 @@ nav ul, nav li {list-style-type:none;margin:0;padding:0;}
 .projects-link > div, .process-link > div, .post-link > div, .read-more-link > div, .projects-list li > div, .contact-email > div {display:table-cell;vertical-align:middle;}
 .projects-link p, .process-link p, .read-more-link p, .contact-email p {margin:0;font-weight:400;}
 .projects-list li a, .post-link h2 {margin: 0 0 0.3125em;font-weight:700;}
-.projects-link p a, .projects-list li a, .process-link p a, .post-link h2 a, .read-more-link p a, .contact-email p a {color:#444444;}
 .projects-link p a:hover, .projects-link p a:focus, .projects-list li a:hover, .projects-list li a:focus, .process-link p a:hover, .process-link p a:focus, .post-link h2 a:hover, .post-link h2 a:focus, .read-more-link p a:hover, .read-more-link p a:focus, .contact-email p a:hover, .contact-email p a:focus {color:#6666ff;text-decoration:none;}
 .post-date, .project-meta {font-size: 0.875em;color:#aaaaaa;display:block;margin-bottom: 2.14285714285716em;}
 .post-template .page-header h1 {margin:0 0 0.208333em;}
+.post-link h2 a {color:#444444;}
 .post-content {margin:0 auto;max-width:35em;padding:7.5em 2.5em;}
 .post-content p:first-of-type {margin-top:0;}
 .post-content p:last-of-type {margin-bottom:0;}
@@ -67,9 +67,9 @@ nav ul, nav li {list-style-type:none;margin:0;padding:0;}
 .projects-list ul {margin:0;padding:0;list-style-type:none;height:100%;}
 .projects-list li {height: 25%;display:table;text-align:center;width:100%;position:relative;}
 .projects-list li:last-of-type {margin-bottom:0;}
-.projects-list li a {display:inline-block;}
-.projects-list li a.button, .post-link a.button {font-size: 0.875em;font-weight:700;color:#ffffff;background:#6666ff;padding: 0.71428571428571em 2.14285714285716em;margin-bottom:0;display: inline-block;}
-.projects-list li a.button:hover, .post-link a.button:hover {background:#333333;}
+.projects-list li a {display:inline-block;color:#444444;}
+.projects-list li a.button, .post-link a.button, .projects-link a.button, .process-link a.button, .read-more-link a.button, .contact-email a.button {font-size: 0.875em;font-weight:700;color:#ffffff;background:#6666ff;padding: 0.71428571428571em 2.14285714285716em;margin-bottom:0;display: inline-block;}
+.projects-list li a.button:hover, .post-link a.button:hover, .projects-link a.button:hover, .process-link a.button:hover, .read-more-link a.button:hover, .contact-email a.button:hover {background:#333333;}
 .process-page-post .page-header h1 {margin-bottom:0.20833333333333em;}
 
 /* mobile landscape view fix */
