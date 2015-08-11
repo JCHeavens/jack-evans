@@ -67,7 +67,7 @@ nav ul, nav li {list-style-type:none;margin:0;padding:0;}
 .projects-list li {height: 25%;display:table;text-align:center;width:100%;position:relative;}
 .projects-list li:last-of-type {margin-bottom:0;}
 .projects-list li a {display:inline-block;}
-.projects-list li a.button {font-size:0.875em;font-weight:700;text-transform:uppercase;color:#ffffff;background:#6666ff;padding:1.07142857142858em;}
+.projects-list li a.button {font-size: 0.875em;font-weight:700;color:#ffffff;background:#6666ff;padding: 1.07142857142858em 2.14285714285716em;}
 .process-page-post .page-header h1 {margin-bottom:0.20833333333333em;}
 
 /* mobile landscape view fix */
