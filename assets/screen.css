@@ -20,7 +20,7 @@ blockquote {padding:0;margin:0;}
 blockquote p {font-style:italic;margin: 1.875em 0;padding-left: 1.40625em;line-height: 1.40625;}
 strong, em, a:link, a:hover, a:visited, span, li {font-family:inherit;font-size:inherit;font-weight:inherit;line-height: inherit;}
 a:link , a:visited {color:#6666ff;text-decoration:none;}
-a:hover, a:focus {color:#6666ff;text-decoration:underline;}
+a:hover, a:focus {color:#6666ff;}
 strong {font-weight:700;}
 em {font-style:italic;}
 ul, ol {list-style-type:disc;margin:0;}
@@ -62,6 +62,8 @@ nav ul, nav li {list-style-type:none;margin:0;padding:0;}
 .post-content {margin:0 auto;max-width:35em;padding:7.5em 2.5em;}
 .post-content p:first-of-type {margin-top:0;}
 .post-content p:last-of-type {margin-bottom:0;}
+.post-content a {border-bottom:0.15625em solid;}
+.post-content a:hover {border-color:#eeeeee;}
 .projects-list {text-align:center;height: 400%;}
 .projects-list ul {margin:0;padding:0;list-style-type:none;height:100%;}
 .projects-list li {height: 25%;display:table;text-align:center;width:100%;position:relative;}
