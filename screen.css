@@ -55,7 +55,7 @@ a.button {padding:0.625em 1.25em;border:0.15625em solid #1C2833;background:#1C28
 body {background:#ffffff;}
 nav ul, nav li {list-style-type:none;margin:0;padding:0;}
 
-.header {height: 87.5%;display:table;text-align:center;padding:0 1.875em;}
+.header {height: 75%;display:table;text-align:center;padding:0 1.875em;}
 .header > div {display:table-cell;vertical-align:middle;text-align:left;}
 @media (min-width: 45em) {.header {max-width:52.5em;margin:0 auto;}}
 @media (min-width: 60em) {.header {padding:0;}}
