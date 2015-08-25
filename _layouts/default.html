@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/screen.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <script src="//use.typekit.net/swo0jxm.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <header class="header">
+      <div>
+        <h1><a href="http://jackevans.io">Jack Evans</a> designs and codes websites that function beautifully on all screens.</h1>
+      </div>
+    </header>
+    
+    {{ content }}
+
+    {% include analytics.html %}
+  </body>
+</html>
