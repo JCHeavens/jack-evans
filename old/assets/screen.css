@@ -71,8 +71,8 @@ nav ul, nav li {list-style-type:none;margin:0;padding:0;}
 .projects-list li a.button, .post-link a.button, .projects-link a.button, .process-link a.button, .read-more-link a.button, .contact-email a.button {font-size: 0.875em;font-weight:700;color:#ffffff;background:#6666ff;padding: 0.71428571428571em 2.14285714285716em;margin-bottom:0;display: inline-block;}
 .projects-list li a.button:hover, .post-link a.button:hover, .projects-link a.button:hover, .process-link a.button:hover, .read-more-link a.button:hover, .contact-email a.button:hover {background:#333333;}
 .process-page-post .page-header h1 {margin-bottom:0.20833333333333em;}
-.projects-link p a, .process-link p a {border-bottom:0.10416666666667em solid #6666ff;}
-.projects-link p a:hover, .process-link p a:hover {border-bottom:0.10416666666667em solid #333333;color:#333333;}
+.projects-link p a, .process-link p a {border-bottom:0.10416666666667em solid #6666ff;color:#333333;}
+.projects-link p a:hover, .process-link p a:hover {color:#6666ff;}
 
 
 /* mobile landscape view fix */
