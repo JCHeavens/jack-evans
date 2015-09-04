@@ -8,10 +8,10 @@ p {font-size:1em;line-height: 1.40625;}
 @media (min-width: 22.5em) {p, .info li {font-size:1.125em;}}
 @media (min-width: 33.75em) {p, .info li {font-size:1.25em;}}
 @media (min-width: 45em) {p, .info li {font-size:1.375em;}}
-h1 {font-size: 1.5em;line-height:1.25;}
-@media (min-width: 22.5em) {h1 {font-size:2em;}}
-@media (min-width: 33.75em) {h1 {font-size:2.25em;}}
-@media (min-width: 45em) {h1 {font-size:3em;}}
+h1 {font-size: 1.375em;line-height:1.25;}
+@media (min-width: 22.5em) {h1 {font-size:1.5em;}}
+@media (min-width: 33.75em) {h1 {font-size:1.75em;}}
+@media (min-width: 45em) {h1 {font-size:2em;}}
 h2, h3 {font-size: 1.375em;line-height:1.25;}
 @media (min-width: 22.5em) {h2, h3 {font-size:1.5em;}}
 @media (min-width: 33.75em) {h2, h3 {font-size:1.75em;}}
