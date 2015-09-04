@@ -8,10 +8,10 @@ p {font-size:1em;line-height: 1.40625;}
 @media (min-width: 22.5em) {p, .info li {font-size:1.125em;}}
 @media (min-width: 33.75em) {p, .info li {font-size:1.25em;}}
 @media (min-width: 45em) {p, .info li {font-size:1.375em;}}
-h1 {font-size: 1.375em;line-height:1.25;}
-@media (min-width: 22.5em) {h1 {font-size:1.5em;}}
-@media (min-width: 33.75em) {h1 {font-size:1.75em;}}
-@media (min-width: 45em) {h1 {font-size:2em;}}
+h1 {font-size: 1.5em;line-height:1.25;}
+@media (min-width: 22.5em) {h1 {font-size:2em;}}
+@media (min-width: 33.75em) {h1 {font-size:2.25em;}}
+@media (min-width: 45em) {h1 {font-size:3em;}}
 h2, h3 {font-size: 1.375em;line-height:1.25;}
 @media (min-width: 22.5em) {h2, h3 {font-size:1.5em;}}
 @media (min-width: 33.75em) {h2, h3 {font-size:1.75em;}}
@@ -57,7 +57,7 @@ nav ul, nav li {list-style-type:none;margin:0;padding:0;}
 
 .header {height: 75%;display:table;text-align:center;padding:0 1.875em;}
 .header > div {display:table-cell;vertical-align:middle;text-align:left;}
-@media (min-width: 45em) {.header {max-width:52.5em;margin:0 auto;}}
+@media (min-width: 45em) {.header {max-width:60em;margin:0 auto;}}
 @media (min-width: 60em) {.header {padding:0;}}
 
 .main {}
