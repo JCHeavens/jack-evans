@@ -79,8 +79,8 @@ nav ul, nav li {list-style-type:none;margin:0;padding:0;}
 .info ul, .info li {list-style-type:none;margin:0;padding:0;}
 .info li {margin-bottom:1.40625em;}
 .info li:last-of-type {margin-bottom:0;}
-.info a:link, .info a:visited {box-shadow: inset 0 -0.3125em 0 #ffffff;}
-.info a:hover, .info a:focus {box-shadow:none;}
+.info a:link, .info a:visited {box-shadow: inset 0 -0.5em 0 #ffffff;-webkit-transition: box-shadow 0.25s; transition: box-shadow 0.25s;}
+.info a:hover, .info a:focus {box-shadow: inset 0 -0.25em 0 #ffffff;}
 @media (min-width: 45em) {.info {padding:5.625em 1.875em;} .info li {display:inline-block;margin-right:3.75em;margin-bottom:0;} .info ul {max-width:52.5em;margin:0 auto;position:relative;}}
 @media (min-width: 60em) {.info {padding:5.625em 0;}}
 
