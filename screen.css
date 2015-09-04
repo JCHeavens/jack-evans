@@ -45,7 +45,7 @@ nav ul, nav li {list-style-type:none;margin:0;padding:0;}
 .site-navigation li.process {bottom:0;left:0;}
 .site-navigation li.contact {bottom:0;right:0;}
 .site-navigation a {font-size:0.875em;text-decoration:none;}
-.site-navigation a:hover, .site-navigation a:focus, .home-page .site-navigation li.home a, .projects-page .site-navigation li.projects a, .process-page .site-navigation li.process a, .contact-page .site-navigation li.contact a {text-decoration: none;color: #6666ff;border-bottom: 0.17857142857143em solid #6666ff;padding-bottom: 0.17857142857143em;}
+.site-navigation a:hover, .site-navigation a:focus, .home-page .site-navigation li.home a, .projects-page .site-navigation li.projects a, .process-page .site-navigation li.process a, .contact-page .site-navigation li.contact a {text-decoration: none;color: #6666ff;border-bottom: 0.17857142857143em solid #6666ff;}
 .main {height:100%;}
 .page-header:after, .projects-link:before, .projects-list li:before, .process-link:before, .post-link:before, .read-more-link:before {content:"";position:absolute;bottom:0;left:0;right:0;text-align:center;width: 0.9375em;height: 7.5em;margin: 0 auto -3.75em;background: #dddddd;}
 .projects-link:before, .projects-list li:before, .process-link:before, .post-link:before, .read-more-link:before {bottom:auto;top:0;margin-bottom:0;margin-top:-3.75em;}
@@ -71,6 +71,8 @@ nav ul, nav li {list-style-type:none;margin:0;padding:0;}
 .projects-list li a.button, .post-link a.button, .projects-link a.button, .process-link a.button, .read-more-link a.button, .contact-email a.button {font-size: 0.875em;font-weight:700;color:#ffffff;background:#6666ff;padding: 0.71428571428571em 2.14285714285716em;margin-bottom:0;display: inline-block;}
 .projects-list li a.button:hover, .post-link a.button:hover, .projects-link a.button:hover, .process-link a.button:hover, .read-more-link a.button:hover, .contact-email a.button:hover {background:#333333;}
 .process-page-post .page-header h1 {margin-bottom:0.20833333333333em;}
+.projects-link a, .process-link a {border-bottom:0.10416666666667em solid #6666ff;}
+
 
 /* mobile landscape view fix */
 @media (max-height: 25.875em) {body {font-size:1em;}.projects-list {height:400%;}}
