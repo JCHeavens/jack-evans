@@ -63,7 +63,7 @@ nav ul, nav li {list-style-type:none;margin:0;padding:0;}
 .main {}
 .browser-mock {padding-top:1.875em;border: 1px solid #d2d4d6;background:#ffffff;}
 .browser-dots {position: absolute;top: 0.625em;left: 0.9375em;}
-.browser-dots span {display: block;float: left;text-indent: -999em;width: 0.625em;height: 0.625em;-moz-border-radius: 0.625em;-webkit-border-radius: 0.625em;border-radius: 0.625em;margin-right: 0.3125em;background: #d2d4d6;}
+.browser-dots span {display: block;float: left;text-indent: -999em;width: 0.625em;height: 0.625em;-moz-border-radius: 0.625em;-webkit-border-radius: 0.625em;border-radius: 0.625em;margin-right: 0.3125em;background: #F9C80E;}
 .screenshot {border: 1px solid #d2d4d6;border-top:0;}
 .project {background: #edeeef;border-top: 1px solid #d2d4d6;}
 .project:nth-of-type(even) {background:#edeeef;}
