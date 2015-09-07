@@ -61,12 +61,12 @@ nav ul, nav li {list-style-type:none;margin:0;padding:0;}
 @media (min-width: 60em) {.header {padding:0;}}
 
 .main {}
-.browser-mock {padding-top:1.875em;border: 1px solid #d2d4d6;background:#ffffff;}
+.browser-mock {padding-top:1.875em;border: 0.15625em solid #DCDCDD;background:#ffffff;}
 .browser-dots {position: absolute;top: 0.625em;left: 0.9375em;}
 .browser-dots span {display: block;float: left;text-indent: -999em;width: 0.625em;height: 0.625em;-moz-border-radius: 0.625em;-webkit-border-radius: 0.625em;border-radius: 0.625em;margin-right: 0.3125em;background: #1C2833;}
-.screenshot {border: 1px solid #d2d4d6;border-top:0;}
-.project {background: #edeeef;border-top: 1px solid #d2d4d6;overflow:hidden;}
-.project:nth-of-type(even) {background:#edeeef;}
+.screenshot {border: 0.15625em solid #DCDCDD;border-top:0;}
+.project {background: #F9F8F8;border-top: 0.15625em solid #DCDCDD;overflow:hidden;}
+.project:nth-of-type(even) {}
 .project .project-contain {padding: 2.5em 1.875em 0;}
 .project-info {padding: 1.875em 0 5.625em;}
 .project-info p {margin:0.625em 0;}
@@ -75,7 +75,7 @@ nav ul, nav li {list-style-type:none;margin:0;padding:0;}
 @media (min-width: 60em) {.main {height:375%;overflow:hidden;} .project {height:20%;} .project .project-contain {padding-top:3.75em;} .project .section, .project .col {height:100%;} .project:nth-of-type(even) .col {float:right;} .project .col {width:50%;}.project .col:first-of-type {padding-right:1.875em;overflow: hidden;}.project .col:last-of-type {padding-left:1.875em;}.project:nth-of-type(even) .col:first-of-type {float:right;padding-left:1.875em;padding-right: 0;} .project:nth-of-type(even) .col:last-of-type {float:right;padding-left: 0;padding-right: 1.875em;} .project-info {padding-top:3.75em;}.screenshot {overflow:hidden;}}
 
 
-.info {padding: 2.5em 1.875em;background: #ffffff;border-top: 1px solid #d2d4d6;}
+.info {padding: 2.5em 1.875em;background: #ffffff;border-top: 0.15625em solid #DCDCDD;}
 .info ul, .info li {list-style-type:none;margin:0;padding:0;}
 .info li {margin-bottom:1.40625em;}
 .info li:last-of-type {margin-bottom:0;}
