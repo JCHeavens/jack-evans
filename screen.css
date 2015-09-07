@@ -66,7 +66,6 @@ nav ul, nav li {list-style-type:none;margin:0;padding:0;}
 .browser-dots span {display: block;float: left;text-indent: -999em;width: 0.625em;height: 0.625em;-moz-border-radius: 0.625em;-webkit-border-radius: 0.625em;border-radius: 0.625em;margin-right: 0.3125em;background: #1C2833;}
 .screenshot {border: 0.15625em solid #DCDCDD;border-top:0;}
 .project {background: #F9F8F8;border-top: 0.15625em solid #DCDCDD;overflow:hidden;}
-.project:nth-of-type(even) {}
 .project .project-contain {padding: 2.5em 1.875em 0;}
 .project-info {padding: 1.875em 0 5.625em;}
 .project-info p {margin:0.625em 0;}
