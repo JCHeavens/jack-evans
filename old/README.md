@@ -1,2 +1,0 @@
-# Jack Evans
-Old site
