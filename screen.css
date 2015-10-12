@@ -55,7 +55,7 @@ nav ul, nav li {list-style-type:none;margin:0;padding:0;}
 .header h1 a {color:#1C1D25;box-shadow:none;}
 .header h1 a:hover {color:#7246F2;box-shadow:none;}
 .header p {margin:0.625em 0 0;}
-.about span.location {display:block;}
+@media (min-width: 22.8125em) {.about span.location {display:block;}}
 .header:after {content: "";position: absolute;bottom: 0;left: 0;right: 0;text-align: center;width: 0.625em;height:5.625em;margin: 0 auto -2.8125em;background:#dcdde5;}
 .main {height:100%;}
 .about {height:50%;max-width:25em;margin:0 auto;padding: 0 1.25em;}
