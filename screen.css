@@ -58,7 +58,7 @@ nav ul, nav li {list-style-type:none;margin:0;padding:0;}
 @media (min-width: 22.8125em) {.about span.location {display:block;}}
 .header:after {content: "";position: absolute;bottom: 0;left: 0;right: 0;text-align: center;width: 0.625em;height:5.625em;margin: 0 auto -2.8125em;background:#dcdde5;}
 .main {height:100%;}
-.about {height:50%;max-width:25em;margin:0 auto;padding: 0 1.25em;}
+.about {height:75%;max-width:25em;margin:0 auto;padding: 0 1.25em;}
 .about p {margin:0;}
 .post {max-width:35em;margin:0 auto;padding: 0 1.25em;height:100%}
 
