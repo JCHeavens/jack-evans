@@ -1,0 +1,386 @@
+/* fonts */
+
+@font-face {
+    font-family: 'charterbold';
+    src: url('fonts/charter_bold.eot');
+    src: url('fonts/charter_bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/charter_bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'charteritalic';
+    src: url('fonts/charter_italic.eot');
+    src: url('fonts/charter_italic.eot?#iefix') format('embedded-opentype'),
+         url('fonts/charter_italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'charterregular';
+    src: url('fonts/charter_regular.eot');
+    src: url('fonts/charter_regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/charter_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* defaults */
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;}
+
+html {
+    font-family: 'charterregular', georgia, serif;
+    font-size: 93.75%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    background: #9CFC97;
+    color: #1C1D25;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 1em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+div, header, main, section, footer {position: relative;}
+
+/* type */
+
+p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 1em;
+}
+p:first-of-type, h3:first-of-type {margin-top:0;}
+p:last-of-type {margin-bottom: 0;}
+
+h1,
+h2,
+h3 {
+    font-family: 'charterbold', georgia, serif;
+    font-weight:normal;
+    line-height: 1;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1.2em;
+    line-height: 1.11111111111111;
+    margin-bottom: 0.55555555555556em;
+}
+
+em {
+    font-family: 'charteritalic', georgia, serif;
+    font-style: normal;
+}
+
+strong {
+    font-family: 'charterbold', georgia, serif;
+    font-weight: normal;
+}
+
+h1.wordmark {
+    font-size: 1.44em;
+    margin-bottom: 0.23148148148148em;
+}
+
+h1.wordmark span {
+    font-family: 'charteritalic', georgia, serif;
+    font-weight: normal;
+    font-size: 0.8333333em;
+}
+
+a {
+  color: rgba(28,29,37,1);
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+
+/* styling */
+
+header {
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+header p {
+  font-size: 0.833em;
+}
+
+header, main, footer {
+  margin: 0 auto;
+  max-width: 40em;
+}
+
+main {
+  padding-bottom: 4em;
+}
+
+.banner {
+    padding-left: 4em;
+    padding-right: 2em;
+}
+
+.banner-wrapper {
+  padding-top: 125%;
+  perspective: 40em;
+  -webkit-perspective: 40em;
+}
+
+.banner h2 {
+    font-size: 1.728em;
+    position: absolute;
+    bottom: 2.31481481481481em;
+    left: 0.5787037037037em;
+    z-index: 4;
+    margin: 0;
+    line-height: 1.35030864197531;
+}
+
+.banner h2 span {
+    font-size: 0.83333333333333em;
+    font-family: 'charteritalic', georgia, serif;
+    font-weight: normal;
+    display: block;
+}
+
+.banner h2:after {
+    content: '';
+    background: #1C1D25;
+    width: 3.472222em;
+    height: 0.28935185185185em;
+    position: absolute;
+    top: -0.5787037037037em;
+    left: 0;
+}
+
+.banner-image {
+    background: url('images/brick-wall.jpg');
+    background-size: cover;
+    animation: rotateImage 12s linear infinite;
+    -webkit-animation: rotateImage 12s linear infinite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.banner-image:after {
+    content: '';
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='3' height='3'><rect width='1' height='1' fill='rgba(28,29,37,1)'/><rect x='2' y='2' width='1' height='1' fill='rgba(28,29,37,1)'/></svg>");
+    background-size: 3px 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    opacity: 0.75;
+}
+
+.banner-image:before {
+    content: '';
+    background: linear-gradient(45deg, rgba(156,252,151,1) 0%,rgba(156,252,151,1) 15%,rgba(156,252,151,0.375) 100%);
+    background-size:cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+.about, .subscribe {
+    padding: 2em 1em 2em 3em;
+}
+
+form input {
+  font-size: inherit;
+  font-family: inherit;
+}
+
+form input, form input:focus {
+  border: 1px solid;
+  box-shadow: 0;
+  outline: none;
+  background: #9CFC97;
+}
+
+form input {
+  border: 1px solid rgba(28,29,37,1);
+  padding: 0.5em 1em;
+  width: 100%;
+}
+
+form input[type='email'] {
+  margin-bottom: 1em;
+}
+
+form input[type='submit'] {
+  background: rgba(28,29,37,1);
+  color: #9CFC97;
+  font-family: 'charterbold', georgia, serif;
+  font-weight:normal;
+  cursor: pointer;
+}
+
+input::-webkit-input-placeholder {
+  color: rgba(28,29,37,1);
+}
+
+input:-moz-placeholder {
+  color: rgba(28,29,37,1);
+}
+
+input::-moz-placeholder {
+  color: rgba(28,29,37,1);
+}
+
+input:-ms-input-placeholder {
+  color: rgba(28,29,37,1);
+}
+
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+input:focus:-moz-placeholder {
+  color: transparent;
+}
+
+input:focus::-moz-placeholder {
+  color: transparent;
+}
+
+input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+@keyframes rotateImage {
+    0%   {transform: rotateY(15deg);}
+    25% {transform: rotateX(-12deg);}
+    50%   {transform: rotateY(-15deg);}
+    75% {transform: rotateX(12deg);}
+    100%   {transform: rotateY(15deg);}
+}
+
+@-webkit-keyframes rotateImage {
+    0%   {-webkit-transform: rotateY(15deg);}
+    25% {-webkit-transform: rotateX(-12deg);}
+    50%   {-webkit-transform: rotateY(-15deg);}
+    75% {-webkit-transform: rotateX(12deg);}
+    100%   {-webkit-transform: rotateY(15deg);}
+}
+
+@media (min-width: 26.5625em) {
+  body {
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 31.875em) {
+  body {
+    padding:0 3em;
+  }
+  .banner h2 {
+    left: 0;
+  }
+}
+
+@media (min-width: 40.3125em) {
+  header {
+    text-align: left;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+
+  header h1.wordmark {
+    display: inline;
+  }
+
+  header p {
+    float: right;
+    line-height: 1.72869147659064;
+  }
+
+  .banner-wrapper {
+      perspective: 64em;
+      -webkit-perspective: 64em;
+      padding-top: 66.667%;
+  }
+  .banner-image {
+      background: url('images/brick-wall-960.jpg');
+      background-size: cover;
+      animation: rotateImage 12s linear infinite;
+      -webkit-animation: rotateImage 12s linear infinite;
+  }
+
+  .banner {
+    padding-right: 0;
+  }
+
+  .banner h2 {
+    bottom: 2.89351851851852em;
+  }
+
+  .about, .subscribe {
+    padding-left: 8em;
+    padding-right: 2em;
+  }
+
+  form input {
+    display: inline;
+    float: left;
+  }
+
+  form input[type='email'] {
+    width: calc(75% - 1em);
+    margin-bottom: 0;
+    margin-right: 1em;
+  }
+
+  form input[type='submit'] {
+    width: 25%;
+  }
+
+  @keyframes rotateImage {
+      0%   {transform: rotateY(-12deg);}
+      25% {transform: rotateX(15deg);}
+      50%   {transform: rotateY(12deg);}
+      75% {transform: rotateX(-15deg);}
+      100%   {transform: rotateY(-12deg);}
+  }
+
+  @-webkit-keyframes rotateImage {
+      0%   {-webkit-transform: rotateY(-12deg);}
+      25% {-webkit-transform: rotateX(15deg);}
+      50%   {-webkit-transform: rotateY(12deg);}
+      75% {-webkit-transform: rotateX(-15deg);}
+      100%   {-webkit-transform: rotateY(-12deg);}
+  }
+}
+
+@media (min-width: 75em) {
+  body {
+    font-size: 1.44em;
+  }
+}
