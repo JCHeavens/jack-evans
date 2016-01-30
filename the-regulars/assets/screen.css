@@ -134,7 +134,7 @@ main {
 }
 
 .banner {
-    padding-left: 4em;
+    padding-left: 3em;
     padding-right: 2em;
 }
 
@@ -142,6 +142,7 @@ main {
   padding-top: 125%;
   perspective: 40em;
   -webkit-perspective: 40em;
+
 }
 
 .banner h2 {
@@ -186,7 +187,7 @@ main {
 
 .banner-image:after {
     content: '';
-    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='2' height='2'><rect width='1' height='1' fill='rgba(28,29,37,1)'/></svg>");
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='2' height='2'><rect width='1' height='1' x='0' y='0' fill='rgba(28,29,37,1)'/></svg>");
     background-size: 2px 2px;
     position: absolute;
     top: 0;
@@ -275,7 +276,7 @@ input:focus:-ms-input-placeholder {
   color: transparent;
 }
 
-@keyframes rotateImage {
+/*@keyframes rotateImage {
     0%   {transform: rotateY(15deg);}
     25% {transform: rotateX(-12deg);}
     50%   {transform: rotateY(-15deg);}
@@ -289,7 +290,7 @@ input:focus:-ms-input-placeholder {
     50%   {-webkit-transform: rotateY(-15deg);}
     75% {-webkit-transform: rotateX(12deg);}
     100%   {-webkit-transform: rotateY(15deg);}
-}
+}*/
 
 @media (min-width: 26.5625em) {
   body {
@@ -332,6 +333,7 @@ input:focus:-ms-input-placeholder {
       background-size: cover;
       animation: rotateImage 12s linear infinite;
       -webkit-animation: rotateImage 12s linear infinite;
+      backface-visibility: hidden;
   }
 
   .banner {
@@ -362,7 +364,7 @@ input:focus:-ms-input-placeholder {
     width: 25%;
   }
 
-  @keyframes rotateImage {
+  /*@keyframes rotateImage {
       0%   {transform: rotateY(-12deg);}
       25% {transform: rotateX(15deg);}
       50%   {transform: rotateY(12deg);}
@@ -376,7 +378,7 @@ input:focus:-ms-input-placeholder {
       50%   {-webkit-transform: rotateY(12deg);}
       75% {-webkit-transform: rotateX(-15deg);}
       100%   {-webkit-transform: rotateY(-12deg);}
-  }
+  }*/
 }
 
 @media (min-width: 75em) {
