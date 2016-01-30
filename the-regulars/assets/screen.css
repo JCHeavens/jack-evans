@@ -186,8 +186,8 @@ main {
 
 .banner-image:after {
     content: '';
-    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='3' height='3'><rect width='1' height='1' fill='rgba(28,29,37,1)'/><rect x='2' y='2' width='1' height='1' fill='rgba(28,29,37,1)'/></svg>");
-    background-size: 3px 3px;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='2' height='2'><rect width='1' height='1' fill='rgba(28,29,37,1)'/></svg>");
+    background-size: 2px 2px;
     position: absolute;
     top: 0;
     left: 0;
