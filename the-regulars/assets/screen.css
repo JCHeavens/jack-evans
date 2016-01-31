@@ -112,6 +112,11 @@ a {
   border-bottom: 1px solid;
 }
 
+a:hover {
+  color: rgba(28,29,37,0.5);
+  border-bottom: 1px solid rgba(28,29,37,0.5);
+}
+
 /* styling */
 
 header {
@@ -225,10 +230,17 @@ form input {
   border: 1px solid rgba(28,29,37,1);
   padding: 0.5em 1em;
   width: 100%;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
 }
 
 form input[type='email'] {
   margin-bottom: 1em;
+}
+
+form input[type='email']:focus {
+  border-color: rgba(28,29,37,0.5);
 }
 
 form input[type='submit'] {
@@ -237,6 +249,10 @@ form input[type='submit'] {
   font-family: 'charterbold', georgia, serif;
   font-weight:normal;
   cursor: pointer;
+}
+
+form input[type='submit']:hover {
+  opacity: 0.5;
 }
 
 input::-webkit-input-placeholder {
