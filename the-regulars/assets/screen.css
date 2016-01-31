@@ -244,11 +244,12 @@ form input[type='email']:focus {
 }
 
 form input[type='submit'] {
-  background: rgba(28,29,37,1) !important;
+  background: rgba(28,29,37,1);
   color: #9CFC97;
   font-family: 'charterbold', georgia, serif;
   font-weight:normal;
   cursor: pointer;
+  -webkit-appearance: none;
 }
 
 form input[type='submit']:hover {
