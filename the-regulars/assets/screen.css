@@ -233,6 +233,7 @@ form input {
   border-radius: 0 !important;
   -webkit-border-radius: 0 !important;
   -moz-border-radius: 0 !important;
+  -webkit-appearance: none;
 }
 
 form input[type='email'] {
@@ -249,7 +250,6 @@ form input[type='submit'] {
   font-family: 'charterbold', georgia, serif;
   font-weight:normal;
   cursor: pointer;
-  -webkit-appearance: none;
 }
 
 form input[type='submit']:hover {
