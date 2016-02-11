@@ -234,6 +234,7 @@ form input {
   -webkit-border-radius: 0 !important;
   -moz-border-radius: 0 !important;
   -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 form input[type='email'] {
